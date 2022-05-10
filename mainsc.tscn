@@ -1,0 +1,9 @@
+[gd_scene format=2]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2( 1, -3 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 510, 303 )
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="Camera2D"]
